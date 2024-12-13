@@ -1,0 +1,62 @@
+
+    .sb-topnav.navbar {
+        background: linear-gradient(135deg, #001f3f, #003366); /* Azul oscuro elegante */
+        border-bottom: 2px solid #002952; /* Línea de separación */
+    }
+
+    .sb-topnav.navbar .navbar-brand {
+        color: #ffffff; /* Blanco puro para contraste */
+        font-weight: bold;
+    }
+
+    .sb-topnav.navbar .nav-link {
+        color: #ffffff;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .sb-topnav.navbar .nav-link:hover {
+        color: #cccccc; /* Gris claro en hover */
+    }
+
+    .dropdown-menu {
+        background-color: #003366; /* Fondo azul oscuro */
+        border: none; /* Sin bordes */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+    }
+
+    .dropdown-item {
+        color: #ffffff;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .dropdown-item:hover {
+        background-color: #002952; /* Azul más oscuro */
+        color: #ffffff;
+    }
+
+    /* Sidebar */
+    .sb-sidenav {
+        background: linear-gradient(135deg, #001f3f, #002952); /* Gradiente azul más elegante */
+    }
+
+    .sb-sidenav .nav-link {
+        color: #ffffff;
+        transition: all 0.3s ease-in-out;
+        padding: 10px 15px;
+    }
+
+    .sb-sidenav .nav-link:hover {
+        background-color: #002952; /* Azul más oscuro en hover */
+        border-radius: 5px;
+        color: #ffffff;
+    }
+
+    .sb-sidenav .sb-nav-link-icon {
+        margin-right: 10px;
+    }
+
+    /* Títulos en la barra de navegación lateral */
+    .sb-sidenav-menu .nav .nav-link {
+        font-size: 14px;
+        font-weight: bold;
+    }
